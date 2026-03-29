@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: uoem-students-voice
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 24.14.0
+      - key: JWT_SECRET
+        generateValue: true

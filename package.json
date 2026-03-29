@@ -1,0 +1,26 @@
+{
+  "name": "student-complaint-feedback-system",
+  "version": "1.0.0",
+  "description": "Full-stack Student Complaint & Feedback System for schools and universities.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "student",
+    "complaint",
+    "feedback",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "sql.js": "^1.13.0"
+  }
+}
